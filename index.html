@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="ur">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TaxConsult — Income Tax Return & Filer Services</title>
+    
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Nastaliq+Urdu:wght@400;700&family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <style>
+        /* پوری ویب سائٹ کا بیک گراؤنڈ */
+        body {
+            background-image: linear-gradient(rgba(255, 255, 255, 0.92), rgba(255, 255, 255, 0.92)), url('images/image.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            margin: 0;
+            font-family: 'Poppins', 'Noto Nastaliq Urdu', sans-serif;
+        }
+
+        /* Hero Section کا بیک گراؤنڈ (اوپری بینر) */
+        .hero {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url('images/image.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            color: #ffffff;
+            text-align: center;
+            padding: 100px 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <nav>
+            <div class="logo">
+                <i class="fa-solid fa-file-invoice-dollar"></i> TaxConsult
+            </div>
+            <ul class="nav-links">
+                <li><a href="#services" onclick="scrollToSection('services')">Services / سروسز</a></li>
+                <li><a href="#pricing" onclick="scrollToSection('pricing')">Pricing / قیمتیں</a></li>
+                <li><a href="#terms" onclick="scrollToSection('terms')">Privacy / پالیسی</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>Income Tax Return & Filer Services</h1>
+        <p>آسان، محفوظ اور تیز ترین انکم ٹیکس ریٹرن سروسز | Fast, Secure & Reliable Tax Return Services in Pakistan.</p>
+        
+        <button class="btn-main" onclick="scrollToSection('services')">Get Started</button>
+    </section>
+
+    <div id="mainContent">
+
+        <section class="container" id="services">
+            <h2 class="section-title">Our Services / ہماری سروسز</h2>
+            <div class="grid">
+                
+                <div class="card">
+                    <div class="card-icon"><i class="fa-solid fa-calculator"></i></div>
+                    <div class="card-columns">
+                        <div class="col-en">
+                            <h3>Tax Return Filing</h3>
+                            <p>Accurate and timely filing of annual income tax returns for salaried & business individuals.</p>
+                        </div>
+                        <div class="col-ur">
+                            <h3>انکم ٹیکس ریٹرن</h3>
+                            <p>تنخواہ دار اور کاروباری افراد کے لیے سالانہ ٹیکس ریٹرن کی درست فائلنگ۔</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-icon"><i class="fa-solid fa-user-check"></i></div>
+                    <div class="card-columns">
+                        <div class="col-en">
+                            <h3>Filer Registration</h3>
+                            <p>Get listed in Active Taxpayer List (ATL) to enjoy lower tax rates and savings.</p>
+                        </div>
+                        <div class="col-ur">
+                            <h3>فائلر رجسٹریشن</h3>
+                            <p>ایکٹیو ٹیکس پیئر لسٹ (ATL) میں اپنا نام شامل کروائیں اور ٹیکس بچت حاصل کریں۔</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-icon"><i class="fa-solid fa-comments-dollar"></i></div>
+                    <div class="card-columns">
+                        <div class="col-en">
+                            <h3>Tax Consultation</h3>
+                            <p>Professional tax advisory and guidance tailored to your needs from experts.</p>
+                        </div>
+                        <div class="col-ur">
+                            <h3>ٹیکس مشاورت</h3>
+                            <p>ہمارے تجربہ کار ٹیکس ماہرین سے قانون کے مطابق بہترین مشاورت حاصل کریں۔</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="container" id="pricing">
+            <h2 class="section-title">Pricing Plans / قیمتیں</h2>
+            <div class="grid">
+                
+                <div class="price-card">
+                    <div class="price">Rs. 3,000</div>
+                    <div class="card-columns">
+                        <div class="col-en">
+                            <h3>Tax Return Filing</h3>
+                            <p>For Salaried & Business Persons</p>
+                        </div>
+                        <div class="col-ur">
+                            <h3>ٹیکس ریٹرن فائلنگ</h3>
+                            <p>بزنس اور سالریڈ افراد کے لیے</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="price-card">
+                    <div class="price">Rs. 2,000</div>
+                    <div class="card-columns">
+                        <div class="col-en">
+                            <h3>Filer Registration</h3>
+                            <p>New Filer ATL Registration</p>
+                        </div>
+                        <div class="col-ur">
+                            <h3>فائلر رجسٹریشن</h3>
+                            <p>نئے افراد کی مکمل رجسٹریشن</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="price-card">
+                    <div class="price">Rs. 1,500</div>
+                    <div class="card-columns">
+                        <div class="col-en">
+                            <h3>Tax Advisory</h3>
+                            <p>1-on-1 Consultation Session</p>
+                        </div>
+                        <div class="col-ur">
+                            <h3>ٹیکس مشورہ</h3>
+                            <p>انفرادی مشاورت سیشن</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="container" id="terms" style="text-align: center; border-top: 1px solid var(--border-light, #eee);">
+            <h2 class="section-title">Privacy Policy / پرائیویسی پالیسی</h2>
+            <div class="card-columns" style="max-width: 800px; margin: 0 auto; border-top: none;">
+                <div class="col-en">
+                    <p>We respect your data privacy. No sensitive documents or CNICs are asked without authorization.</p>
+                </div>
+                <div class="col-ur">
+                    <p>ہم آپ کے ڈیٹا کی رازداری کا احترام کرتے ہیں۔ بغیر اجازت کے کوئی حساس معلومات نہیں مانگی جاتی۔</p>
+                </div>
+            </div>
+        </section>
+
+        <a href="https://wa.me/03411245355?text=Hello!%20I%20need%20assistance%20regarding%20Tax%20Services." class="whatsapp-btn" target="_blank" title="Contact on WhatsApp">
+            <i class="fa-brands fa-whatsapp"></i>
+        </a>
+
+        <footer>
+            <p>&copy; 2026 TaxConsult. All Rights Reserved.</p>
+        </footer>
+
+    </div>
+
+    <script>
+        function scrollToSection(targetId) {
+            const element = document.getElementById(targetId);
+            if (element) {
+                element.scrollIntoView({ behavior: 'smooth' });
+            }
+        }
+    </script>
+</body>
+</html>
